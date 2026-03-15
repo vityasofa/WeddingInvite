@@ -45,11 +45,7 @@ body{
 .rect-top{ top:0 }
 .rect-bottom{ bottom:0 }
 
-/* Тонкая линия стыка по центру */
-.envelope-overlay::after{
-  content:""; position:absolute; left:0; right:0; top:50%; height:1px;
-  background:rgba(0,0,0,.06); transform:translateY(-.5px); z-index:2;
-}
+
 
 /* Текст поверх конверта */
 .envelope-text{
